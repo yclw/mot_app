@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 class DeepSeekService {
-  // static const String _apiKey = 'sk-80506e510c3a4b899130605c4607061b';
+  
   static const String _apiUrl = 'https://api.deepseek.com/chat/completions';
 
   static Future<String> analyzeData(String data, String description, String apiKey) async {
